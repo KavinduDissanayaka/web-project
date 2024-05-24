@@ -1,0 +1,207 @@
+body{
+    align-items: center;
+    background-color:azure;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+    }
+    
+    nav{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background:rgba(0, 0, 0, 0.6);
+    border-bottom: 3px solid rgb(0, 0, 0);
+    }
+
+    nav .logo{
+        padding: 22px 20px;
+        height: 80px;
+        float: left;
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: red;
+        cursor: pointer;
+        }
+        
+    nav ul {
+         list-style: none;
+         float: right;
+         margin: 0;
+         padding: 0;
+        display: flex;
+     }
+
+     nav ul li a{
+        line-height: 80px;
+        color: #fff;
+        padding: 12px 30px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    nav ul li a:hover{
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+    }
+    
+    nav ul li a.selected{
+        border:2px solid red;
+        background: rgb(37, 37, 37);
+        border-radius: 5px;   
+    }
+    
+.bg_image{
+    right: 0;
+    top: 100px;
+    width: 100%;
+    height: 70vh;
+    background: url(https://theploughinnkelmscott.com/images_/hero-restaurant-02-5e59.jpg-cropper-1366x590.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg_image h2{
+    padding-top: 12%;
+    margin-top: 0%;
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+}
+
+.bg_image p{
+    padding-top: 0%;
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url(https://www.printawallpaper.com/wp-content/uploads/2020/08/atmosphere-for-your-cafe-3.jpg);
+    background-position: center;
+    background-size: auto;
+}
+
+#form{
+    background-color: wheat;
+    height:400px;
+    width: 800px;
+    margin:auto;
+    margin-top: 100px;
+    opacity: 0.7;
+}
+
+#first-group{
+    border: 2px solid lime;
+    width: 400px;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 14%;
+    position: absolute;
+}
+
+#content{
+    border: 1px solid red;
+    margin: 10px;
+    margin-left: 8px;
+    padding: 5px;
+}
+
+#content #input-group{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 8px;
+    width: 300px;
+
+
+}
+
+::placeholder{
+    color: black;
+}
+
+.fa{
+    display:inline-block;
+    color: red;
+    border-right: 1px solid #fff;
+    padding: 8px;
+}
+
+#submit-btn{
+    margin-top: 38%;
+	margin-left: 40%;
+	display: inline-block;
+	padding: 1% 1%;
+	border: 2px solid rgb(0, 0, 0);
+	color: #334;
+	font-size: 25px;
+	background-color: #fff;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	line-height: 10px;	   
+}
+
+#submit-btn:hover{
+	background-color: crimson;
+	border-color: crimson;
+	border-radius: 20px;
+	color: #fff;
+}
+
+footer{
+	background: #111;
+	height: auto;
+	width: 100vw;
+	font-family: 'Saira', sans-serif;
+	padding-top: 40px;
+	color: #fff;
+	align-items: center;
+}
+
+.footer_content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	margin-top: -3%;
+}
+
+.footer_content h3{
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 3rem;
+	margin-bottom: 0%;
+}
+
+.footer_bar{
+	background: #000;
+	width: 100vw;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.footer_bar p{
+	font-size: 15px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
+
+.footer_bar span{
+	text-transform: uppercase;
+	opacity: 0.4;
+	font-weight: 200;
+}

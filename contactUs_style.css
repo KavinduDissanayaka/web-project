@@ -1,0 +1,191 @@
+body{
+    align-items: center;
+    background-color:azure;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+    }
+    
+    nav{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background:rgba(0, 0, 0, 0.6);
+    border-bottom: 3px solid rgb(0, 0, 0);
+    }
+
+    nav .logo{
+        padding: 22px 20px;
+        height: 80px;
+        float: left;
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: red;
+        cursor: pointer;
+        }
+        
+    nav ul {
+         list-style: none;
+         float: right;
+         margin: 0;
+         padding: 0;
+        display: flex;
+     }
+
+     nav ul li a{
+        line-height: 80px;
+        color: #fff;
+        padding: 12px 30px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    nav ul li a:hover{
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+    }
+    
+    nav ul li a.selected{
+        border:2px solid red;
+        background: rgb(37, 37, 37);
+        border-radius: 5px;   
+    }
+
+    .bg_image{
+        right: 0;
+        top: 100px;
+        width: 100%;
+        height: 70vh;
+        background: url(https://www.myglobalviewpoint.com/wp-content/uploads/2020/12/Unique-Restaurants-in-Boston-Featured-Image.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    .bg_image h2{
+        padding-top: 12%;
+        margin-top: 0%;
+        text-align: center;
+        color: #fff;
+        font-size: 60px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+    }
+
+    .contact{
+        position: relative;
+        min-height: 100vh;
+        padding: 50px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact .content{
+        max-width: 800px;
+        text-align: center;
+        font-family: 'Signika', sans-serif;
+        margin-top: -05%;
+    }
+
+    .contact .content p{
+        font-weight: bold;
+        color: rgb(77, 77, 77);
+        font-size: 30px;
+    }
+
+    .container .contactInfo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container .contactInfo .box{
+        position: relative;
+        padding: 20px 0;
+        display: flex;
+    }
+
+    .container .contactInfo .box .text{
+        display: flex;
+        margin-left: 25px;
+        font-size: 16px;
+        color: #334;
+        flex-direction: column;
+        font-weight: 350;
+    }
+    
+    .container .contactInfo .box .text p{
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: -1%;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    .email{
+        cursor: pointer;
+        text-decoration: none;
+        color: #334;
+        font-weight: bold;
+    }
+    
+    .container .contactInfo .box .text h3{
+        font-weight: bolder;
+        color: crimson;
+    }
+
+    footer{
+        background: #111;
+        height: auto;
+        width: 100vw;
+        font-family: 'Saira', sans-serif;
+        padding-top: 40px;
+        color: #fff;
+        align-items: center;
+    }
+    
+    .footer_content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: -3%;
+    }
+    
+    .footer_content h3{
+        font-size: 1.8rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 3rem;
+        margin-bottom: 0%;
+    }
+    
+    .footer_bar{
+        background: #000;
+        width: 100vw;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    .footer_bar p{
+        font-size: 15px;
+        word-spacing: 2px;
+        text-transform: capitalize;
+    }
+    
+    .footer_bar span{
+        text-transform: uppercase;
+        opacity: 0.4;
+        font-weight: 200;
+    }
+
